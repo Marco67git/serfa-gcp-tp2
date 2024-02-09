@@ -35,7 +35,7 @@ jobs:
     # CONTINUOUS DEPLOYMENT
     deploy-to-cloud-run:
         runs-on: ubuntu-latest
-        # permet d'éviter les race conditions
+        # permet d'éviter les race conditions 
         needs: push-image-to-gar
         steps:
           - uses: actions/checkout@v4
