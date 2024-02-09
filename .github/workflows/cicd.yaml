@@ -48,7 +48,7 @@ jobs:
           - name: "set up Google Cloud SDK"
             uses: "google-github-actions/setup-gcloud@v2"
 
-          # j'utilise `gcloud` pour déployer mon job Cloud Run
+          # j'utilise `gcloud` pour déployer mon job Cloud Run 
           - name: "update Cloud Run job"
             run: |
              gcloud run jobs deploy screenshotter --image=europe-west1-docker.pkg.dev/high-sunlight-412810/gcp-codeproject/serfagcp2:latest --region=europe-west1
