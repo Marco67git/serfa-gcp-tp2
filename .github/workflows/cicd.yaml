@@ -29,5 +29,5 @@ jobs:
             context: .
             push: true
             tags: |
-             europe-west1-docker.pkg.dev/serfa-gcp/serfa-gcp-tp/serfagcp2:latest
-             europe-west1-docker.pkg.dev/serfa-gcp/serfa-gcp-tp/serfagcp2:${{ github.sha }}
+             europe-west1-docker.pkg.dev/high-sunlight-412810/gcp-codeproject/serfagcp2:latest
+             europe-west1-docker.pkg.dev/high-sunlight-412810/gcp-codeproject/serfagcp2:${{ github.sha }} 
