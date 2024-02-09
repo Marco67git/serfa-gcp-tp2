@@ -38,6 +38,7 @@ jobs:
         # permet d'éviter les race conditions
         needs: push-image-to-gar
         steps:
+          - uses: actions/checkout@v4
           # cette action me permet de me connecter au GCP en utilisant ma JSON key
           - uses: 'google-github-actions/auth@v2'
             with:
