@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "Vscodeproject",
+			"path": "../Vscodeproject"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
