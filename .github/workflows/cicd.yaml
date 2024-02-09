@@ -1,7 +1,7 @@
 name: 4.3 module example 2 CICD pipeline
 
 # ici vous avez le déclencheur de votre pipeline;
-# contrairement à Google Cloud Build, vous pouvez le configurer d'ici 
+# contrairement à Google Cloud Build, vous pouvez le configurer d'ici  
 on:
   push:
     branches: ["main"]
