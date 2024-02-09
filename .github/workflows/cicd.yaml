@@ -51,4 +51,4 @@ jobs:
           # j'utilise `gcloud` pour déployer mon job Cloud Run
           - name: "update Cloud Run job"
             run: |
-             gcloud run jobs deploy screenshotter --image=europe-west1-docker.pkg.dev/high-sunlight-412810/gcp-codeproject/serfagcp2:latest--region=europe-west1
+             gcloud run jobs deploy screenshotter --image=europe-west1-docker.pkg.dev/high-sunlight-412810/gcp-codeproject/serfagcp2:latest --region=europe-west1
