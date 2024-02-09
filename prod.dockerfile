@@ -4,7 +4,7 @@ WORKDIR /home/pptruser/app
 
 COPY --chown=pptruser:pptruser package*.json ./
 
-# cette partie est responsable de l'installation des dépendances
+# cette partie est responsable de l'installation des dépendances 
 RUN npm ci
 
 COPY --chown=pptruser:pptruser . .
